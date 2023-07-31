@@ -5,43 +5,14 @@ a = symbols('a')
 b = symbols('b')
 delta = symbols('delta')
 
-# print(" -----------------------------------------------------------")
-# print("|             *********************************             |")
-# print("|                 Equation du second degrès                 |") 
-# print("|             *********************************             |")
-# print(" -----------------------------------------------------------\n\n")
-
-banner = """    
-
-
-                                                                                                                        
-                                MMMMMMMM               MMMMMMMM                           tttt                                iiii                      
-                                M:::::::M             M:::::::M                        ttt:::t                               i::::i                     
-                                M::::::::M           M::::::::M                        t:::::t                                iiii                      
-                                M:::::::::M         M:::::::::M                        t:::::t                                                          
-                                M::::::::::M       M::::::::::M  aaaaaaaaaaaaa   ttttttt:::::ttttttt    rrrrr   rrrrrrrrr   iiiiiii xxxxxxx      xxxxxxx
-                                M:::::::::::M     M:::::::::::M  a::::::::::::a  t:::::::::::::::::t    r::::rrr:::::::::r  i:::::i  x:::::x    x:::::x 
-                                M:::::::M::::M   M::::M:::::::M  aaaaaaaaa:::::a t:::::::::::::::::t    r:::::::::::::::::r  i::::i   x:::::x  x:::::x  
-                                M::::::M M::::M M::::M M::::::M           a::::a tttttt:::::::tttttt    rr::::::rrrrr::::::r i::::i    x:::::xx:::::x   
-                                M::::::M  M::::M::::M  M::::::M    aaaaaaa:::::a       t:::::t           r:::::r     r:::::r i::::i     x::::::::::x    
-                                M::::::M   M:::::::M   M::::::M  aa::::::::::::a       t:::::t           r:::::r     rrrrrrr i::::i      x::::::::x     
-                                M::::::M    M:::::M    M::::::M a::::aaaa::::::a       t:::::t           r:::::r             i::::i      x::::::::x     
-                                M::::::M     MMMMM     M::::::Ma::::a    a:::::a       t:::::t    tttttt r:::::r             i::::i     x::::::::::x    
-                                M::::::M               M::::::Ma::::a    a:::::a       t::::::tttt:::::t r:::::r            i::::::i   x:::::xx:::::x   
-                                M::::::M               M::::::Ma:::::aaaa::::::a       tt::::::::::::::t r:::::r            i::::::i  x:::::x  x:::::x  
-                                M::::::M               M::::::M a::::::::::aa:::a        tt:::::::::::tt r:::::r            i::::::i x:::::x    x:::::x 
-                                MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa          ttttttttttt   rrrrrrr            iiiiiiiixxxxxxx      xxxxxxx
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                           
-                                    """
-
-
-
-print(Colorate.Horizontal(Colors.blue_to_cyan, banner, 5))
-                                                                                             
+print(" -----------------------------------------------------------")
+print("|             *********************************             |")
+print("|                 Equation du second degrès                 |") 
+print("|             *********************************             |")
+print(" -----------------------------------------------------------\n\n")
+                                                                                      
 
 print("[!] Resout les equations de la forme:\n\n   (1) ax² + bx + c = 0 \n   (2) ax + b = 0 \n\n")
-
 
 def affine(): 
         a_val = input("  a: ")
