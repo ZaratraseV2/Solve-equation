@@ -1,4 +1,5 @@
 # Solve-equation
-![image](https://github.com/ZaratraseV2/Solve-equation/assets/122055075/948d7347-2f45-48fe-8f9e-9dd3c9eae3ab)
+![image](https://github.com/ZaratraseV2/Solve-equation/assets/122055075/d468147c-f7c7-4e2f-9a5e-0ff88c0bcd37)
+
 
 
