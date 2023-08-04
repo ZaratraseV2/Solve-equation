@@ -72,7 +72,6 @@ def second_degres():
 
 def equations():
         type = Write.Input("[?] Equation (1 ou 2):  ", Colors.blue_to_purple, interval=0.0015)
-        # type = input ("[?] Equation (1 ou 2):  ")  
         print("")
         if type == "1":
                 second_degres()
