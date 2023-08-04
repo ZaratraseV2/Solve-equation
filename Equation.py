@@ -23,7 +23,6 @@ def affine():
         equations()
         
 
-
 def second_degres():
     while True:
         # Récupération des réels a, b et c de l'expression ax² + bx + c
@@ -36,7 +35,6 @@ def second_degres():
             x1 = -int(b_val) / int(c)
             print(f"- L'unique solution de cette equation est x = {x1}\n")
             equations()
-
 
         # Calcul de Delta
         delta_val = (int(b_val) ** 2) - (4 * int(a_val) * int(c))
